@@ -1,3 +1,9 @@
+<?php
+
+$number = 1;
+
+?>
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -43,5 +49,17 @@
         <div class="link">
             <a href="http://127.0.0.1:8000/goodbye">Goodbye!</a>
         </div>
+
+        <div class="flex-center">
+        @if ($number > 10)
+            <p>Numero superiore a 10</p>
+        @elseif ($number == 10)
+            <p>Numero uguale a 10</p>
+        @else <p>Numero inferiore a 10</p>
+
+        @endif
+        </div>
+
+
     </body>
 </html>
