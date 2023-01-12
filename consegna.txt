@@ -1,0 +1,2 @@
+Cancelliamo la view welcome.blade.php e creiamo una nostra homepage, facciamo sì che la rotta visualizzi home.blade.php
+All'interno stampiamo un Hello World, poi rendiamo alcune parti dinamiche con Blade.
